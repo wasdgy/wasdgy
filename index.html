@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ПОУ «Павлово-Посадская школа РО ДОСААФ России МО»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/dosaaf-logo.png" alt="Логотип ДОСААФ">
+        <div class="logo-text-block">
+          <span class="logo-title">ДОСААФ</span>
+          <span class="logo-sub">Павлово-Посадская школа</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop">
+        <a href="index.html" class="active">Почему мы</a>
+        <a href="courses.html">Курсы</a>
+        <a href="instructors.html">Инструкторы</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="requisites.html">Реквизиты</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+
+      <a href="tel:+74964321188" class="header-phone">
+        <i class="fas fa-phone-alt"></i> +7 (496) 432-11-88
+      </a>
+
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="index.html" class="active">Почему мы</a>
+        <a href="courses.html">Курсы</a>
+        <a href="instructors.html">Инструкторы</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="requisites.html">Реквизиты</a>
+        <a href="contacts.html">Контакты</a>
+        <div class="mobile-nav-phone">
+          <a href="tel:+74964321188">
+            <i class="fas fa-phone-alt"></i> +7 (496) 432-11-88
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-check-circle" style="margin-right: 6px;"></i> Набор групп каждый месяц
+        </div>
+        <h1 class="hero-title">
+          Учись водить <span>уверенно</span> и без стресса
+        </h1>
+        <p class="hero-text">
+          ПОУ «Павлово-Посадская школа РО ДОСААФ России МО» — подготовка водителей 
+          категорий A, B и C. Практика на новых автомобилях и опытные инструкторы.
+        </p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>2016</h3>
+            <p>год основания лицензии</p>
+          </div>
+          <div class="stat-item">
+            <h3>98%</h3>
+            <p>сдают с первого раза</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>автомобилей</p>
+          </div>
+        </div>
+        <div class="hero-buttons">
+          <a href="contacts.html" class="btn">
+            <i class="fas fa-pen"></i> Записаться на курс
+          </a>
+          <a href="courses.html" class="btn btn-outline">
+            <i class="fas fa-list"></i> Выбрать программу
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Почему выбирают нашу школу</h2>
+      <p class="section-subtitle">Мы создаём комфортные условия для обучения, чтобы вы чувствовали себя за рулём уверенно</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-car"></i></div>
+          <h3>Новые автомобили</h3>
+          <p>Учебный парк обновляется каждый год: Hyundai Solaris, Kia Rio, Lada Vesta и грузовые автомобили.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Опытные инструкторы</h3>
+          <p>Стаж вождения от 10 лет. Терпеливые и спокойные наставники, которые объясняют понятно.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-clock"></i></div>
+          <h3>Гибкий график</h3>
+          <p>Занятия утром, днём и вечером, включая выходные. Подстроим расписание под вас.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-tachometer-alt"></i></div>
+          <h3>Собственная площадка</h3>
+          <p>Оборудованная площадка для отработки упражнений и вождения в городе Павловский Посад.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
+          <h3>Помощь с документами</h3>
+          <p>Полное сопровождение: от медкомиссии до сдачи экзамена в ГИБДД.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-credit-card"></i></div>
+          <h3>Рассрочка 0%</h3>
+          <p>Оплата частями без переплат. Первый взнос — от 5000 ₽.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="images/dosaaf-logo.png" alt="Логотип ДОСААФ">
+            <div class="logo-text-block">
+              <span class="logo-title">ДОСААФ</span>
+              <span class="logo-sub">Павлово-Посадская школа</span>
+            </div>
+          </a>
+          <p>ПОУ «Павлово-Посадская школа РО ДОСААФ России МО». Подготовка водителей всех категорий с 2016 года.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Разделы</h4>
+          <a href="index.html">Почему мы</a>
+          <a href="courses.html">Курсы</a>
+          <a href="instructors.html">Инструкторы</a>
+          <a href="reviews.html">Отзывы</a>
+          <a href="requisites.html">Реквизиты</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <a href="tel:+74964321188">+7 (496) 432-11-88</a>
+          <a href="mailto:Pposrosto@mail.ru">Pposrosto@mail.ru</a>
+          <a href="https://www.dosaaf-pp.ru" target="_blank">www.dosaaf-pp.ru</a>
+          <a href="contacts.html">142500, МО, г. Павловский Посад,<br>ул. Большая Покровская, д. 45</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Мы в соцсетях</h4>
+          <div class="footer-social">
+            <a href="#" aria-label="ВКонтакте"><i class="fab fa-vk"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 ПОУ «Павлово-Посадская школа РО ДОСААФ России МО». Все права защищены.</div>
+        <div>Лицензия Серия 50 Л 01 № 0008565</div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    (function () {
+      const burger = document.getElementById('burger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (!burger || !mobileMenu) return;
+
+      function closeMenu() {
+        burger.classList.remove('active');
+        mobileMenu.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      function openMenu() {
+        burger.classList.add('active');
+        mobileMenu.classList.add('open');
+        burger.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      burger.addEventListener('click', function () {
+        if (mobileMenu.classList.contains('open')) closeMenu();
+        else openMenu();
+      });
+
+      mobileMenu.addEventListener('click', function (e) {
+        if (e.target === mobileMenu) closeMenu();
+      });
+
+      mobileMenu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeMenu();
+      });
+    })();
+  </script>
+
+</body>
+</html>
